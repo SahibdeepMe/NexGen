@@ -752,7 +752,7 @@
                 
                 // Method 1: Try GitHub first
                 try {
-                    const response = await fetch('https://raw.githubusercontent.com/SahibdeepMe/ai/main/data');
+                    const response = await fetch('https://drive.google.com/file/d/1ZrFfoUJ0QVlapHT7lHvLoS8ThtlQ2zp2/view?usp=drive_link');
                     if (response.ok) {
                         const configText = await response.text();
                         const config = JSON.parse(configText);
